@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="384" viewBox="0 0 384 384">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c5282;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a365d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="12" y="12" width="360" height="360" rx="40" fill="url(#bgGradient)"/>
+  
+  <!-- House Icon -->
+  <path d="M192 80 L280 160 L280 280 L104 280 L104 160 Z" 
+        fill="#ffffff" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- Roof -->
+  <path d="M80 160 L192 60 L304 160" 
+        fill="none" stroke="#e2e8f0" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- DFC Text -->
+  <text x="192" y="220" font-family="Arial, sans-serif" font-size="72" font-weight="bold" 
+        fill="#2c5282" text-anchor="middle">DFC</text>
+  
+  <!-- Subtitle -->
+  <text x="192" y="250" font-family="Arial, sans-serif" font-size="20" 
+        fill="#4a5568" text-anchor="middle">HOME IMPROVEMENT</text>
+</svg>
